@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(196, 240, 196);
+  }
+
+  .hometown {
+    background-color: rgb(241, 241, 149);
+  }
+  
+  h1 {
+    color: rgb(105, 105, 153);
+    margin-left: 20px;
+  }
+
+  #para1 {
+    text-align: center;
+    color: gold;
+  }
+
+  * {
+    text-align: center;
+  }
