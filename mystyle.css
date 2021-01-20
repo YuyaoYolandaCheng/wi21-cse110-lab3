@@ -1,0 +1,70 @@
+@charset "UTF-8";
+footer {
+    background-color: rgb(196, 240, 196);
+  }
+
+  .hometown {
+    background-color: rgb(241, 241, 149);
+  }
+  
+  h2 {
+    color: #F0F8FF;
+    margin-left: 20px;
+  }
+
+  #para1 {
+    text-align: center;
+    color: gold;
+  }
+
+  * {
+    text-align: center;
+  }
+
+  a[target] {
+    color: yellow;
+  }
+  
+  a:link {
+    color: pink;
+  }
+
+  /* visited link */
+  a:visited {
+    color: darkgreen;
+  }
+  
+  /* mouse over link */
+  a.highlight:hover {
+    color: #f00b94;
+  } 
+  
+  /* selected link */
+  a:active {
+    color: rgb(14, 243, 239);
+  }
+
+  div > p {
+    background-color: rgb(54, 161, 108);
+  }
+
+  div h3 {
+    background-color: rgb(48, 119, 134);
+  }
+
+  form,
+  div{
+    border:#666 2px solid;
+  }
+
+  div + h3 {
+    background-color: lavenderblush;
+  }
+
+  div ~ p {
+    background-color: rgba(78, 64, 18, 0.2);
+  }
+
+  figcaption.two{
+      color: hsl(120, 100%, 80%);
+  }
