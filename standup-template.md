@@ -2,10 +2,19 @@
 
 ### Day, Month Date
 
-> Single line quote
->> Nested quote
->> multiple line
->> quote
+1. First item.
+   - Item 1
+   - Item 2
+   - Item 3
+1. Second item.
+   - Nested item 1
+   - Nested item 2
+   - Nested item 3 
+
+* meetings:
+><br \>A @ time
+><br \>B @ time
+><br \>...
             
 * assignments:
 ><br \>C due date
