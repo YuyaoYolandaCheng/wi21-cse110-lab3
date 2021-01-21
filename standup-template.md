@@ -2,17 +2,17 @@
 
 ### Day, Month Date
 
-* meetings: <br />&nbsp;&nbsp;A @ time
-            <br />&nbsp;&nbsp;B @ time
+* meetings: <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A @ time
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B @ time
             ...
             
-* assignments: <br />&nbsp;&nbsp;C due date
-               <br />&nbsp;&nbsp;D due date
+* assignments: <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C due date
+               <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D due date
                ...
                
 * tickets:
-          <br />&nbsp;&nbsp;links to Asana tickets
-          <br />&nbsp;&nbsp;links to Trello tickets
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;links to Asana tickets
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;links to Trello tickets
           
 * bug fixes: description of bugs
 
