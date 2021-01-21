@@ -2,8 +2,8 @@
 
 ### Day, Month Date
 
-* meetings: <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A @ time
-            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B @ time
+* meetings: +A @ time
+            +B @ time
             ...
             
 * assignments: <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C due date
