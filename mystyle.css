@@ -1,8 +1,24 @@
 @charset "UTF-8";
+
 footer {
     background-color: rgb(196, 240, 196);
   }
 
+  @media only screen and (min-width: 20cm) {
+    footer {
+      background-color: lightblue;
+    }
+  }
+
+div > summary {
+    color: palegoldenrod;
+    text-align: right;
+    border: 1vh dashed #F0F8FF;
+}
+div > article {
+    color: peachpuff;
+    text-align: left;
+}
   .hometown {
     background-color: rgb(241, 241, 149);
   }
@@ -54,7 +70,7 @@ footer {
 
   form,
   div{
-    border:#666 2px solid;
+    border:tomato 1vh dashed;
   }
 
   div + h3 {
@@ -63,8 +79,89 @@ footer {
 
   div ~ p {
     background-color: rgba(78, 64, 18, 0.2);
+    text-decoration: underline;
   }
 
   figcaption.two{
       color: hsl(120, 100%, 80%);
   }
+
+  #radius {
+    border: 2cm solid rgb(155, 231, 208);
+    padding: 10px;
+    border-radius: 50mm 20mm;
+  }
+
+  #border-color {
+    border: 5px rgb(192, 231, 155);
+    padding: 10em;
+    border-radius: 30vw 20px;
+    border-style: dotted;
+  }
+
+  #box-model {
+    font-family: "Sofia", sans-serif;
+    background-color: azure;
+    max-width: 500px;
+    border: 15px solid bisque;
+    padding: 50px;
+    margin: 25px 50px 75px 100px;
+    color: cornflowerblue
+  }
+
+  #box-model1 {
+    position: absolute;
+    background-color: azure;
+    width: 500px;
+    border: 15px solid bisque;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-right: 75px;
+    margin-left: 100px;
+    color: cornflowerblue
+  }
+
+  #box-model2 {
+    position: relative;
+    background-color: azure;
+    height: 100px;
+    width: 120px;
+    border: 15px solid bisque;
+    padding: 25px 50px 75px 100px;
+    margin: auto;
+    color: cornflowerblue
+  }
+
+  li {
+    display: inline;
+  }
+
+  span {
+    display: block;
+  }
+
+  p:hover {
+    background-color: deepskyblue;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: honeydew;
+  }
+
+  .flex-container > div {
+    background-color: #999;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .grid-container {
+    display: grid;
+  }
+
+  
