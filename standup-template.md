@@ -2,17 +2,17 @@
 
 ### Day, Month Date
 
-* meetings: \A @ time
-            \B @ time
+* meetings: <br />A @ time
+            <br />B @ time
             ...
             
-* assignments: \C due date
-               **D due date
+* assignments: <br />C due date
+               <br />D due date
                ...
                
 * tickets:
-          \links to Asana tickets
-          \links to Trello tickets
+          <br />links to Asana tickets
+          <br />links to Trello tickets
           
 * bug fixes: description of bugs
 
