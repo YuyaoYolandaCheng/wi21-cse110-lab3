@@ -2,10 +2,10 @@
 
 ### Day, Month Date
 
-* meetings:
-><br \>A @ time
-><br \>B @ time
-><br \>...
+> Single line quote
+>> Nested quote
+>> multiple line
+>> quote
             
 * assignments:
 ><br \>C due date
