@@ -3,9 +3,9 @@
 ### Day, Month Date
 
 * meetings:
-           >A @ time
-           >B @ time
-           >...
+>A @ time
+>B @ time
+>...
             
 * assignments:
               >C due date
