@@ -3,18 +3,18 @@
 ### Day, Month Date
 
 * meetings:
->A @ time
->B @ time
->...
+><br \>A @ time
+><br \>B @ time
+><br \>...
             
 * assignments:
-              >C due date
-              >D due date
-              >...
+><br \>C due date
+><br \>D due date
+><br \>...
                
 * tickets:
-          >links to Asana tickets
-          >links to Trello tickets
+><br \>links to Asana tickets
+><br \>links to Trello tickets
           
 * bug fixes: description of bugs
 
