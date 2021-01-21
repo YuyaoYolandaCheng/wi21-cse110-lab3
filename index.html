@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
       <link rel="stylesheet" href="mystyle.css">
         <meta charset = "utf-8">
         <title>Yuyao Yolanda Cheng's CSE110 Lab2</title>
     </head>
+
     <style>
       h3 {
        color: rgb(228, 195, 163);
@@ -51,24 +54,24 @@
                   <p>I always miss my hometown when I am away.</p>
                 </div>
             
-                <p>I have <span>brown</span> eyes.</p>
+                <p style = "color: brown">I have <span>brown</span> eyes.</p>
 
                 <hr>
                 <p id = "para1">My great grandama was from Korea, so I am 1/4 Korean.</p>
                 <hr>
                 <h3>My favourite drinks</h3>
                 <ul>
-                    <li>Milktea</li>
-                    <li>Fruit tea</li>
+                    <li>Milktea, </li>
+                    <li>Fruit Tea, </li>
                     <li>Yakult</li>
                   </ul>
                   <h3>Courses I am taking this quarter</h3>
                   <ol start="1">
-                    <li><b>CSE110</b></li>
-                    <li>CSE134</li>
-                    <li>CSE140</li>
-                    <li>CSE140L</li>
-                    <li>CSE124AR</li>
+                    <li><b>CSE110, </b></li>
+                    <li>CSE134, </li>
+                    <li>CSE140, </li>
+                    <li>CSE140L, </li>
+                    <li>CSE124AR, </li>
                     <li>CSE124BR</li>
                   </ol>
                   
@@ -106,7 +109,7 @@
                         <source src="egg_video.mp4" type="video/mp4">
                       </video>
 
-                      <canvas id="myCanvas" width="200" height="100" style="border:1px solid #99d5e4;"></canvas>
+                      <canvas id="myCanvas" width="200" height="100" style="border:5px dashed #99d5e4;"></canvas>
                         
                         
 
@@ -122,7 +125,7 @@
                             <input type="submit" value="Submit">
                           </form> 
 
-                        
+                          <div id = "radius">
                           <label for="fruits">Pick a delicious fruit:</label>                     
                           <select  name="fruits" id="fruits">
                             <optgroup label="yellow">
@@ -133,11 +136,13 @@
                             <option value="grape">grape</option>
                             <option value="apple">apple</option>
                             </optgroup>
-                            </select>   
+                            </select>
+                            </div>   
 
+                            <div id = "border-color">
                             <form action="/action_page.php">
-                                <fieldset>
-                                  <legend>Tell me something about you:</legend>
+                                <fieldset style = "color: CadetBlue">
+                                  <legend style = "color: #666">Tell me something about you:</legend>
                                   <label for="name">Your name:</label>
                                   <input type="text" id="name" name="name"><br><br>
                                   <label for="major">Your major:</label>
@@ -159,6 +164,7 @@
                                   <input type="submit" value="Submit">
                                 </fieldset>
                               </form>
+                              </div>
 
                               <textarea id="question" name="question" rows="2" cols="30">Have you learned some interesting information about me?
                                 </textarea>
@@ -204,6 +210,39 @@
                                     <h2>Gudetama is the best</h2>
                                     <img src="egg3.jpg" width="214" height="204">
                                   </template>
+
+                                  <div id = "box-model">
+                                    My Favourite Poem <br>
+                                    Coincidentally this beautiful zither has fifty strings,<br>
+                                    Each string, each fret reminds me of a year that has gone by.<br>
+                                    Life is a dream, mine seems illusory like those beautiful butterflies in Zhuangzi's reverie,<br>
+                                    Once I loved like King Hope and wished to a cuckoo become to hold onto springtime.<br>
+                                    
+                                    Suffering brings out tears in the vast sea that under the brightest moon seem like pearls,<br>
+                                    Fond memories are like the Bluefield jade warmed in the sun that could joy volatilise.<br>
+                                    All emotions have become the past held only in remembrance,<br>
+                                    What could not be would never be, forever gone are the old times.</div>
+
+                                    <div id = "box-model1">
+                                      Do you like it <br>
+                                    </div>
+
+                                    <div id = "box-model2">
+                                      I hope you like it <br>
+                                    </div>
+
+                                    <div class="flex-container">
+                                      <h1>Happy</h1>
+                                      <h2>Winter</h2>
+                                      <h3>2021</h3>  
+                                    </div>
+
+                                    <div class="grid-container">
+                                      <summary class="grid-item">Good Morning</summary>
+                                      <article class="grid-item">Good Afternoon</article>
+                                      <p class="grid-item">Good Evening</p>
+                                    </div>
+                                    
               <footer>
                 <p>Author: Yuyao Yolanda Cheng</p>
                 <p><a href="y6cheng@ucsd.edu">y6cheng.ucsd.edu</a></p>
