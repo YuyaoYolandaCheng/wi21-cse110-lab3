@@ -2,38 +2,28 @@
 
 ### Day, Month Date
 
-1. First item.
-   - Item 1
-   - Item 2
-   - Item 3
-1. Second item.
-   - Nested item 1
-   - Nested item 2
-   - Nested item 3 
-
-* meetings:
-><br \>A @ time
-><br \>B @ time
-><br \>...
-            
-* assignments:
-><br \>C due date
-><br \>D due date
-><br \>...
-               
-* tickets:
-><br \>links to Asana tickets
-><br \>links to Trello tickets
+1. meetings:
+   - A @ time
+   - B @ time
+   - ...
+1. assignments:
+   - C due date
+   - D due date
+   - ...
+1. tickets:
+   - links to Asana tickets
+   - links to Trello tickets
+   - ...
           
-* bug fixes: description of bugs
+1. bug fixes: description of bugs
 
-* documentation: links and description
+1. documentation: links and description
 
-* finished today: 
+1. finished today: 
 
-* leftovers for tomorrow: 
+1. leftovers for tomorrow: 
 
-* planning for future: 
+1. planning for future: 
 
 
 ### Day, Month Date
